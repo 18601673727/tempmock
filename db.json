@@ -1,12 +1,21 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "approvals": [
+    { 
+      "fileId": 1, 
+      "userId": 2,
+      "fileName": "test1.txt",
+      "description": "一些说明性的文字，一些说明性的文字，一些说明性的文字，一些说明性的文字",
+      "actionType": "解密",
+      "createdAt": "2023-01-01 12:00:55"
+    },
+    {
+      "fileId": 2, 
+      "userId": 3,
+      "fileName": "test2.txt",
+      "description": "一些说明性的文字，一些说明性的文字，一些说明性的文字，一些说明性的文字",
+      "actionType": "外发",
+      "createdAt": "2023-01-02 09:10:20"
+    }
   ],
   "profile": {
     "name": "typicode"
